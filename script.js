@@ -26,27 +26,28 @@ REGOLE
 /* SCRIVI QUI LA TUA RISPOSTA */
 let name = "elisa"
 console.log("name")
+
 /* ESERCIZIO 3
  Scrivi il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20.
 */
-
 /* SCRIVI QUI LA TUA RISPOSTA */
 let number1 = 12
 let number2 = 20
 let number3 = number1 + number2
 console.log(number3)
+// oppure console.log(12 +20)  o consol.log('soma',sum)
+
 /* ESERCIZIO 4
  Crea una variable di nome "x" e assegna ad essa il numero 12.
 */
-
 /* SCRIVI QUI LA TUA RISPOSTA */
 let x = 12
 console.log(x)
+
 /* ESERCIZIO 5
   Riassegna un nuovo valore alla variabile "name" già esistente: il tuo cognome.
   Dimostra l'impossibilità di riassegnare un valore ad una variabile dichiarata con il costrutto const.
 */
-
 /* SCRIVI QUI LA TUA RISPOSTA */
 let names = "elisa"
  names = "gelmetti"
@@ -58,24 +59,31 @@ const cielo = "sole"
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
 */
-
 /* SCRIVI QUI LA TUA RISPOSTA */
  let number4 = 4
  x = 12
  let number5 = number4 - x
 console.log(number5)
+// oppure console.log(4 - x)  const subtraction = 4 - x
+
 /* ESERCIZIO 7
  Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
  Verifica che name1 sia diversa da name2 (suggerimento: è la stessa cosa di verificare che la loro uguaglianza sia falsa).
  EXTRA: verifica che la loro uguaglianza diventi true se entrambe vengono trasformate in lowercase (senza cambiare il valore di name2!).
 */
-
-/* SCRIVI QUI LA TUA RISPOSTA */
+ /* SCRIVI QUI LA TUA RISPOSTA */
  let name1 = "john"
  let name2 = "John"
- console.log(name1 = name2)
+ console.log(name1 !== name2)
+
+
+//  
 
 String nome = "John"
 Boolean risultato = nome.equals("John")
 String risultato = nome.toUpperCase()
  console.log(name1 = name2)
+//  console.log(name1.toLowerCase() === name2.toLowerCase()) 
+// console.log('name1 in lowercase', name1.toLowerCase())
+// console.log('name2 in lowercase', name2.toLowerCase())
+// if(name1.tolowerCase()=== "John") {name2= false}
